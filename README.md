@@ -1,6 +1,6 @@
 # timegap
 
-[![test](https://github.com/s25c1048zk-source/robosys2026/actions/workflows/test.yml/badge.svg)](https://github.com/s25c1048zk-source/robosys2026/actions/workflows/test.yml)
+[![test](https://github.com/s25c1048zk-source/timegap/actions/workflows/test.yml/badge.svg)](https://github.com/s25c1048zk-source/timegap/actions/workflows/test.yml)
 
 標準入力から時刻を1行ずつ読み取り、直前の時刻との差を秒単位で出力するコマンドです。
 同じ日の作業記録や実験記録について、記録間の経過時間を確認できます。
@@ -12,11 +12,11 @@
 ## 導入方法
 
 Python 3とGitが使用できる環境で、以下を実行してください。
-すでにrobosys2026フォルダーがある場合は、別の場所で実行してください。
+すでにtimegapフォルダーがある場合は、別の場所で実行してください。
 
 ```bash
-$ git clone https://github.com/s25c1048zk-source/robosys2026.git
-$ cd robosys2026
+$ git clone https://github.com/s25c1048zk-source/timegap.git
+$ cd timegap
 $ chmod +x timegap
 ```
 
